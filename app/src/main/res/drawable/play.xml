@@ -1,0 +1,9 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/play_1">
+    <target
+        android:name="play_left"
+        android:animation="@animator/left" />
+    <target
+        android:name="play_right"
+        android:animation="@animator/right" />
+</animated-vector>

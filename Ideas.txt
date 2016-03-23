@@ -1,0 +1,21 @@
+Playlist:
+->try using a vector as a priority queue to implement functionality
+->try using a quantity to store the list as an ArrayList
+
+Song Model:
+->use a key to store the position of the songs.
+
+Album Model:
+->try storing the position of the songs in the list and then use it appropriately instead of creating an ArrayList of song models
+
+
+Sharing a song:
+
+public void onClick(View view) {
+	Uri uri = Uri.parse(song.data);
+	Intent intent = new Intent(Intent.ACTION_SEND_MULTIPLE);
+	intent.setType("audio/*");
+	intent.putExtra(Intent.EXTRA_STREAM,uri);
+	Intent chooser = Intent.createChooser(intent,"Share via...");
+	startActivity(choooser);
+}

@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportHeight="20"
+    android:viewportWidth="28">
+    <path
+        android:name="pause_left"
+        android:fillColor="#000000"
+        android:pathData="M8,4 l0,12 4,0 0,-12 z" />
+    <path
+        android:name="pause_right"
+        android:fillColor="#000000"
+        android:pathData="M16,4 l0,12 4,0 0,-12 z" />
+</vector>
